@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * Solution to Codechef's Sept Long Challenge problem.
  * Problem Link : https://www.codechef.com/SEPT17/problems/CHEFSUM
  *
- * @author Monic.Bhanushali
+ * @author Monic Bhanushali
  *
  */
 public class LittleChefAndSums {
