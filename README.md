@@ -12,12 +12,12 @@ Solution to various programming problems.
  8. Recursion ([youtube](https://www.youtube.com/watch?v=KEEKn7Me-ms) , [gfg](http://www.geeksforgeeks.org/recursion/) ,[medium](https://medium.freecodecamp.org/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9))
 
 # Data Structures:
- 1. Arrays (gfg , wiki , problems)
- 2. Matrix (wiki)
- 3. LinkedList ( gfg , basecs)
- 4. Stacks and queues (basecs)
- 5. Hashtable (wiki , youtube , basecs)
- 6. Tree (freecodecamp , stackoverflow , youtube)
+ 1. Arrays ([gfg](http://www.geeksforgeeks.org/introduction-to-arrays/) , [wiki](https://en.wikipedia.org/wiki/Array_data_structure) , [problems](https://www.hackerrank.com/domains/data-structures/arrays))
+ 2. Matrix ([wiki](https://en.wikipedia.org/wiki/Matrix_(mathematics)))
+ 3. LinkedList ( [gfg](http://www.geeksforgeeks.org/data-structures/linked-list/) , [basecs](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d))
+ 4. Stacks and queues ([basecs](https://medium.com/basecs/stacks-and-overflows-dbcf7854dc67))
+ 5. Hashtable ([wiki](https://en.wikipedia.org/wiki/Hash_table) , [youtube](https://www.youtube.com/watch?v=shs0KM3wKv8) , [basecs](https://medium.com/basecs/taking-hash-tables-off-the-shelf-139cbf4752f0))
+ 6. Tree ([freecodecamp]() , [stackoverflow]() , [youtube]())
  7. Binary tree (gfg)
  8. AVL Tree (gfg)
  9. Segment Tree (gfg)
