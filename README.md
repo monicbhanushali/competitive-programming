@@ -22,20 +22,20 @@ Solution to various programming problems.
      - AVL Tree ([gfg](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/))
      - Segment Tree ([gfg](http://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/))
      - Heaps ([youtube](https://www.youtube.com/watch?v=t0Cq6tVNRBA) , [gfg](http://www.geeksforgeeks.org/binary-heap/))
- 11. Suffix Array ( [youtube]() , [codechef]() , [gfg]())
- 12. Suffix Tree ( [gfg]() , [stackoverflow]())
- 13. Graphs (topcoder , basecs , youtube)
- 14. Disjoint Set data structure (gfg , wiki)
- 15. Tries (topcoder , youtube)
- 16. Palindromic Tree (gfg , blog)
- 17. Complete DS guide on geeksforgeeks.
+ 7. Suffix Array ( [youtube](https://www.youtube.com/watch?v=HKPrVm5FWvg) , [codechef](https://discuss.codechef.com/questions/21385/a-tutorial-on-suffix-arrays) , [gfg](https://www.geeksforgeeks.org/suffix-array-set-1-introduction/))
+ 8. Suffix Tree ( [gfg](https://www.geeksforgeeks.org/pattern-searching-set-8-suffix-tree-introduction/) , [stackoverflow](https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english))
+ 9. Graphs ([topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-1/) , [basecs](https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8) , [youtube](https://www.youtube.com/watch?v=gXgEDyodOJU))
+ 10. Disjoint Set data structure ([gfg](http://www.geeksforgeeks.org/union-find/) , [wiki](https://en.wikipedia.org/wiki/Disjoint-set_data_structure))
+ 11. Tries ([topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/) , [youtube](https://www.youtube.com/watch?v=YG6iX28hmd0))
+ 12. Palindromic Tree ([gfg](http://www.geeksforgeeks.org/palindromic-tree-introduction-implementation/) , [blog](http://adilet.org/blog/25-09-14/))
+ 13. Complete DS guide on [geeksforgeeks](http://www.geeksforgeeks.org/data-structures/).
 
 # Algorithms:
  1. What is an algorithm? (wiki)
  2. Searching
-    a. Linear search (gfg)
-    b. Binary search ( topcoder , gfg)
-    c. Jump search ( gfg )
+    - Linear search (gfg)
+    - Binary search ( topcoder , gfg)
+    - Jump search ( gfg )
  3. Sorting
 
 
