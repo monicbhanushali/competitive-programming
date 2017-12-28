@@ -28,11 +28,11 @@
  13. Complete DS guide on [geeksforgeeks](http://www.geeksforgeeks.org/data-structures/).
 
 # Algorithms:
- 1. What is an algorithm? (wiki)
+ 1. What is an algorithm? ([wiki](https://en.wikipedia.org/wiki/Algorithm))
  2. Searching
-    - Linear search (gfg)
-    - Binary search ( topcoder , gfg)
-    - Jump search ( gfg )
+    - Linear search ([gfg](http://www.geeksforgeeks.org/linear-search/))
+    - Binary search ( [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) , [gfg](http://www.geeksforgeeks.org/binary-search/))
+    - Jump search ( [gfg](http://www.geeksforgeeks.org/jump-search/) )
  3. Sorting
 
 
