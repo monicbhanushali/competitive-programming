@@ -1,6 +1,3 @@
-# competitive-programming
-Solution to various programming problems.
-
 # Basics: 
  1. All about bits ([Stanford Unv](https://web.stanford.edu/class/cs101/bits-bytes.html) , [basecs](https://medium.com/basecs/bits-bytes-building-with-binary-13cb4289aafa))
  2. Number  System ([basecs](https://medium.com/basecs/hexs-and-other-magical-numbers-9785bc26b7ee))
