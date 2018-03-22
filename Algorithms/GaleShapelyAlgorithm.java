@@ -48,7 +48,7 @@ public class GaleShapelyAlgorithm {
 
     }
 
-    private static void galeShapelyAlgorithm(Map<String,List<String>> menPreferences,
+    private static Map<String,String> galeShapelyAlgorithm(Map<String,List<String>> menPreferences,
                                              Map<String, List<String>> womenPreferences) {
 
         List<String> unengagedMens = new ArrayList<>(menPreferences.keySet());
@@ -63,15 +63,19 @@ public class GaleShapelyAlgorithm {
 
             //Check is woman is already engaged.
             if(womenPartner.containsKey(woman)){
+
                 List<String> herPrefList = womenPreferences.get(woman);
+
                 //As woman is already engaged, we now check if she prefers the "proposing guy" over her current partner
                 //If this guy appears before her current partner in preference list then we then woman accepts "proposing guy"
                 if(herPrefList.indexOf(singleMan) < herPrefList.indexOf(womenPartner.get(woman))){
+
                     //making her current partner single :( and updating his preference list.
                     unengagedMens.add(womenPartner.get(woman));
                     List<String> currPartnerPrefList = menPreferences.get(womenPartner.get(woman));
                     currPartnerPrefList.remove(woman);
                     menPreferences.put(womenPartner.get(woman), currPartnerPrefList);
+
                     womenPartner.put(woman, singleMan);
                     menPartner.put(singleMan, woman);
                     unengagedMens.remove(singleMan);
@@ -85,7 +89,7 @@ public class GaleShapelyAlgorithm {
                 unengagedMens.remove(singleMan);
             }
         }
-        System.out.println(menPartner);
+        return menPartner;
     }
 
 }
