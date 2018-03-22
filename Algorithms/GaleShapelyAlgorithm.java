@@ -44,45 +44,47 @@ public class GaleShapelyAlgorithm {
             womenPreferences.put(women.get(i), preference);
         }
 
-        galeShapelyAlgorithm(men, women, menPreferences, womenPreferences);
+        galeShapelyAlgorithm(menPreferences, womenPreferences);
 
     }
 
-    private static void galeShapelyAlgorithm(List<String> men, List<String> women, Map<String,
-            List<String>> menPreferences, Map<String, List<String>> womenPreferences) {
+    private static void galeShapelyAlgorithm(Map<String,List<String>> menPreferences,
+                                             Map<String, List<String>> womenPreferences) {
 
         List<String> unengagedMens = new ArrayList<>(menPreferences.keySet());
         Map<String, String> menPartner = new HashMap<>();
         Map<String, String> womenPartner = new HashMap<>();
 
+        //Continue till all men are engaged
         while(!unengagedMens.isEmpty()){
-            String singleMen = unengagedMens.get(0);
-            List<String> manChoice = menPreferences.get(singleMen);
-            String woman = manChoice.get(0);
-            System.out.println(womenPreferences);
+            String singleMan = unengagedMens.get(0);
+            List<String> hisPrefList = menPreferences.get(singleMan);
+            String woman = hisPrefList.get(0);
+
+            //Check is woman is already engaged.
             if(womenPartner.containsKey(woman)){
-                List<String> pref = womenPreferences.get(woman);
-                if(pref.indexOf(singleMen) < pref.indexOf(womenPartner.get(woman))){
+                List<String> herPrefList = womenPreferences.get(woman);
+                //As woman is already engaged, we now check if she prefers the "proposing guy" over her current partner
+                //If this guy appears before her current partner in preference list then we then woman accepts "proposing guy"
+                if(herPrefList.indexOf(singleMan) < herPrefList.indexOf(womenPartner.get(woman))){
+                    //making her current partner single :( and updating his preference list.
                     unengagedMens.add(womenPartner.get(woman));
-                    List<String> manPref = menPreferences.get(womenPartner.get(woman));
-                    manPref.remove(woman);
-                    menPreferences.put(womenPartner.get(woman), manPref);
-                    womenPartner.put(woman, singleMen);
-                    menPartner.put(singleMen, woman);
-                    unengagedMens.remove(singleMen);
+                    List<String> currPartnerPrefList = menPreferences.get(womenPartner.get(woman));
+                    currPartnerPrefList.remove(woman);
+                    menPreferences.put(womenPartner.get(woman), currPartnerPrefList);
+                    womenPartner.put(woman, singleMan);
+                    menPartner.put(singleMan, woman);
+                    unengagedMens.remove(singleMan);
                 }else{
-                    manChoice.remove(woman);
-                    menPreferences.put(singleMen, manChoice);
+                    hisPrefList.remove(woman);
+                    menPreferences.put(singleMan, hisPrefList);
                 }
             }else{
-                menPartner.put(singleMen, woman);
-                womenPartner.put(woman, singleMen);
-                unengagedMens.remove(singleMen);
+                menPartner.put(singleMan, woman);
+                womenPartner.put(woman, singleMan);
+                unengagedMens.remove(singleMan);
             }
-
-
         }
-
         System.out.println(menPartner);
     }
 
