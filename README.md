@@ -29,10 +29,13 @@
 
 # Algorithms:
  1. What is an algorithm? ([wiki](https://en.wikipedia.org/wiki/Algorithm))
+    - Tool to visualize algorithms: https://visualgo.net/en
  2. Searching
     - Linear search ([gfg](http://www.geeksforgeeks.org/linear-search/))
     - Binary search ( [topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/) , [gfg](http://www.geeksforgeeks.org/binary-search/))
     - Jump search ( [gfg](http://www.geeksforgeeks.org/jump-search/) )
  3. Sorting
+    - Radix Sort ([MIT Opencourseware](https://youtu.be/Nz1KZXbghj8))
+    - Tim Sort ([GKCS Part 1](https://youtu.be/emeME__917E), [GKCS Part 2](https://youtu.be/6DOhQyqAAvU))
 
 
